@@ -1,13 +1,24 @@
 <html>
   <head>
    <title>Music Chart</title> 
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   </head>
   <body>
    <center>
     <h1>My Favorite Frank Ocean Songs</h1>
-    <script>
+   <div id="plot"></div>
+     <script>
       console.log("This is from the internal JS");
-    </script>
+       let songNames = ["Super Rich Kids", "Nights", "Pyramids"];
+       let streams = [20437635, 72844573, 40245576]
+       let trace={
+         x:songNames,
+         y: streams,
+         type: 'bar'
+ };
+let data =[trace];
+       Plotly.newPlot("plot",data);
+     </script>
  <a href= "index.html"> Click Here to go back to the Home Page</a>
    </center>
   </body>
