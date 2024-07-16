@@ -11,7 +11,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // chapultepec castle coordinates 19.4204, -99.1819
 L.circle([19.4204, -99.1819], {
-fillColor: '#809e8c', 
-  color: '#631917',
-  radius:1000
+fillColor: '#326317', 
+  color: '#809e8c',
+  radius:600
 }).addTo(map);
