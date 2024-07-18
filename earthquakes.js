@@ -15,3 +15,4 @@ var USGS_USImagery = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/se
 	attribution: 'Tiles courtesy of the <a href="https://usgs.gov/">U.S. Geological Survey</a>'
 }).addTo(map);
 }
+);
